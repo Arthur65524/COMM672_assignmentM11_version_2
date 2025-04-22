@@ -180,8 +180,13 @@ body.home {
     display: flex;
     gap: 50px;
 }
+.feature-block h3 {
+    font-size: 1.10em;
+}
 
-
+.testimonials h2 {
+    font-size: 1.5em;
+}
 
 .testimonial-block {
     background-color: #fff;
