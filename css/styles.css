@@ -12,6 +12,9 @@ body, textarea {
 h1, h2, h3 {
     font-family: 'Nanum Myeongjo';
 }
+h2 {
+    font-size: 1.5em;
+}
 body {
     font-family: 'Raleway';
 }
@@ -131,14 +134,10 @@ body.home {
 .hero-text h1 {
     padding-bottom: 15px;
 }
-
-
 .features h2 {
     font-size: 1.5em;
     padding: 15px 0px;
 }
-
-
 .feature-container {
     display: flex;
     justify-content: center;
@@ -152,8 +151,6 @@ body.home {
     flex: auto;
     width: 32%;
 }
-
-
 .feature-block h3 {
     padding: 15px;
 }
@@ -164,9 +161,6 @@ body.home {
 .feature-block a {
     color: #222e50;
 }
-
-
-
 .testimonials {
     background-color: #222e50;
     padding-bottom: 30px;
@@ -187,7 +181,6 @@ body.home {
 .testimonials h2 {
     font-size: 1.5em;
 }
-
 .testimonial-block {
     background-color: #fff;
     padding: 20px;
@@ -198,8 +191,6 @@ body.home {
 .testimonial-block span {
     font-weight: bold;
 }
-
-
 .team {
     padding-bottom: 20px;
 }
@@ -216,18 +207,47 @@ body.home {
     width: 25%;
 }
 /**About Page**/
-.about .container {
+.about-container {
     max-width: 900px;
+    margin: 0 auto;
 }
 .about-block {
     display: flex;
     gap: 20px;
     align-items: center;
 }
+.career-h2 {
+    padding: 20px;
+}
 .about-block img {
     width: 80px;
     height: 80px;
 }
+.overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 100px 10px 100px;
+    box-sizing: border-box;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+  .text h2 {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .video {
+    flex-shrink: 0;
+  }
+
+
+
+
 /**Community Page**/
 .community {
     display: grid;
@@ -528,4 +548,22 @@ footer img {
     .full-width {
         grid-column: span 1;
     }
+    iframe, .video {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+    .overview {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 50px 100px 10px 100px;
+        box-sizing: border-box;
+      }
+      .text {
+        text-align: center;
+      }
+      .text h2 {
+        text-align: center;
+      }
 }
