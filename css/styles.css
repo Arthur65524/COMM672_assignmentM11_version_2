@@ -296,6 +296,9 @@ body.home {
 .event-block p {
     padding-bottom: 20px;
 }
+.calendar {
+    text-align: center;
+}
 /**Feature Page**/
 .feature-page-block {
     border: 1px solid #efefef;
