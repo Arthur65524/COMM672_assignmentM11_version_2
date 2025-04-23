@@ -312,6 +312,25 @@ body.home {
     height: 200px;
     object-fit: cover;
 }
+.feature-container ul {
+    list-style: none;
+    margin-left: -40px;
+    padding: 20;
+  }
+.feature-container ul li::before {
+    content: "\f1b0";
+    font-family: "FontAwesome";
+    padding-right: 10px;
+    color: black;
+  }
+  .feature-container ul li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1em;
+  }
+  .faq-h3 {
+    text-align: center;
+  }
 /**Contact**/
 .contact-container {
     display: flex;
