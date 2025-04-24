@@ -328,7 +328,10 @@ body.home {
     width: 100%;
 }
 .event-block h3, .event-block p {
-    padding: 0 20px;
+    padding: 30px 20px 0px 20px;
+}
+.event-block-span {
+    line-height: 25px;
 }
 .event-block.featured {
     grid-column: span 3;
